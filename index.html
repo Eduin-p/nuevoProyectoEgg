@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clase 2</title>
+    <link rel="stylesheet" href="style/style.css"/>
+    <script src="https://kit.fontawesome.com/c9b87a4bee.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h1 class="logo" >Mi Perfil </h1>
+        <!-- <input type="checkbox" id="check" /> -->
+        <label  class="checkbtn">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <nav class="navbar">
+            <ul>
+                <li><a>Foto</a> </li>
+                <li><a>Descripcion</a> </li>
+                <li><a>Contacto</a> </li>
+            </ul>
+            <!-- <img src="./icon/icon_menu.svg" alt="menu"> -->
+        </nav>
+    </header>
+   <main>
+        <section class="contenedor-perfil">
+            <div class="perfil-info">
+                <h2>Sobre Mí</h2>
+            <p>Soy de colombia, tengo 37 años</p>
+            </div>
+            <img class="perfil" src="https://images.unsplash.com/photo-1593085512500-5d55148d6f0d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1760&q=80" />
+        </section>
+        <img class="baner" src="https://images.unsplash.com/photo-1506765515384-028b60a970df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1738&q=80" />   
+        <h1 class="titulo">Trabajos</h1>
+        <div class="contendor-trabajo">
+            <div class ="tarjeta">
+                <h2 class="trabajo">Pintura</h2>
+                <img class="img-trabajo" src="https://images.pexels.com/photos/896108/pexels-photo-896108.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
+                <p Class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id sunt ipsam ipsum impedit ducimus odio nemo, tempore ex enim est illo, quae eligendi! Pariatur fuga nam praesentium cumque rerum. Numquam!</p>
+                <span class="leer primero"><a href="">leer más</a></span>
+            </div>
+            <div class ="tarjeta">
+                <h2 class="trabajo">Programacion</h2>
+                <img class="img-trabajo" src="https://images.pexels.com/photos/16129728/pexels-photo-16129728/free-photo-of-hombre-escritorio-sentado-ordenador.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
+                <p Class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id sunt ipsam ipsum impedit ducimus odio nemo, tempore ex enim est illo, quae eligendi! Pariatur fuga nam praesentium cumque rerum. Numquam!</p>
+                <span class="leer segundo"><a href="">leer más</a></span>
+            </div>
+        </div>   
+        <form id="form" action="" method="get" class="formulario">
+
+                <!--codigo de form de prueba   -->
+            <ul>
+                  <li>
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="user_name"autocomplete="Ingresa tu nombre" />
+                  </li>
+                  <li>
+                    <label for="mail">Email:</label>
+                    <input type="email" id="mail" name="user_mail" />
+                  </li>
+                  <li>
+                    <label for="msg">Mensaje:</label>
+                    <textarea id="msg" name="user_message"></textarea>
+                  </li>
+                  <li class="button">
+                    <button type="submit">Enviar</button>
+                  </li>
+                </ul>
+                <!-- fin de form de prueba  -->
+        </form> 
+   </main>
+   <footer>
+    <div> Creado por Eduin Niño</div>
+    <p> Contacto: </p>
+    <img class="WhatsApp" src="https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-whatsapp-phone-icon-png-image_6315989.png"/>
+    <p style="display: inline;">WhatsApp :<a href="https://wa.me/13178427788 ">Contacto</a></p>
+   </footer>
+   <script src="./script/script.js"></script>
+</body>
+</html>
